@@ -1,15 +1,21 @@
 # Current Work
 
-Language/framework mirror repository (qompassai hygiene program).
+pub_template — Qompass AI's Astro template for academic publication
+pages (paper landing pages with figures, LaTeX, PDFs, 3D splats, and
+image comparisons; React + Svelte islands, Tailwind).
 
 ## Status
 
-Mirror of upstream. Not actively developed; synced periodically.
-See qompassai/Python for the license normalization pilot pattern.
+- Fresh-clone build verified 2026-10-11: `npm ci` +
+  `npm run build` green — astro check 0 errors / 0 warnings, build
+  produces dist/ with the demo page.
+- README now documents the template's own getting-started route and
+  customization points (it previously did not).
+- `index.scip` is a generated, gitignored artifact at the repo root
+  (regen: `npx @sourcegraph/scip-typescript index`).
 
 ## Standing rules
 
-- License: Apache-2.0 (SPDX). `LICENSE` file byte-identical to canonical
-  text except filled copyright line.
-- Do not push code changes without Matt's explicit direction; mirrors
-  track upstream.
+- Dual license: LICENSE-AGPL + LICENSE-QCDA stay as they are.
+- Code changes are pushed only under Matt's explicit direction
+  (the 2026-10-11 overnight campaign authorization covered this pass).

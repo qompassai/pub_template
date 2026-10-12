@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # stress test
 src/pages/stress-test.mdx
+/index.scip

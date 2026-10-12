@@ -454,3 +454,27 @@
                 says data breach affected more than 100,000 people</a></p>
     </div>
 </details>
+
+## Getting started (this template)
+
+Verified on a fresh clone, 2026-10-11 (Node 22, npm):
+
+```bash
+npm ci          # install exactly what package-lock.json pins
+npm run dev     # local dev server
+npm run build   # astro check (0 errors) + production build into dist/
+npm run preview # serve the built site
+```
+
+To make it your publication page:
+
+- Edit `src/pages/index.mdx` — that is the page. The components in
+  `src/components/` (Figure, LaTeX, PDF, Splat, ImageComparison,
+  TwoColumns, …) are imported there and in `src/layouts/Layout.astro`.
+- Update `citation.bib` and `CITATION.cff` with your paper's metadata.
+- Replace the demo assets in `src/assets/` and `public/` with yours.
+- Site-level settings live in `astro.config.mjs`; styling in
+  `tailwind.config.mjs` and `src/styles/global.css`.
+
+`index.scip` at the repo root is a generated SCIP index (gitignored);
+regenerate with `npx @sourcegraph/scip-typescript index`.
