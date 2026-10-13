@@ -21,8 +21,6 @@
         ├── citation.bib
         ├── CITATION.cff
         ├── docs
-        ├── LICENSE-AGPL
-        ├── LICENSE-QCDA
         ├── node_modules
         ├── package.json
         ├── package-lock.json
