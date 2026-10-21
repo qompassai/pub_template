@@ -17,5 +17,5 @@ image comparisons; React + Svelte islands, Tailwind).
 ## Standing rules
 
 - Dual license: LICENSE-AGPL + LICENSE-QCDA stay as they are.
-- Code changes are pushed only under Matt's explicit direction
+- Code changes are pushed only under Owner's explicit direction
   (the 2026-10-11 overnight campaign authorization covered this pass).
